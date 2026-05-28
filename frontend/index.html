@@ -2,77 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=./loginPage/index.html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laundry Login</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Redirecting...</title>
 </head>
 <body>
-  <main class="page">
-    <section class="card">
-      <div class="card-top">
-        <p class="tag">Hostel Connect</p>
-        <h1>Login</h1>
-        <p class="subtext">Use your registration number and password.</p>
-      </div>
-
-      <section class="panel" id="createPanel">
-        <form id="registerForm" class="form">
-          <label>
-            <span>Registration No</span>
-            <input type="text" id="registerRegNo" placeholder="Enter registration number" autocomplete="username" required>
-          </label>
-
-          <label>
-            <span>Name</span>
-            <input type="text" id="registerName" placeholder="Enter your name" autocomplete="name" required>
-          </label>
-
-          <label>
-            <span>Password</span>
-            <input type="password" id="registerPassword" placeholder="Create password" autocomplete="new-password" required>
-          </label>
-
-          <label>
-            <span>Block</span>
-            <select id="registerBlock" required>
-              <option value="">Select Block</option>
-            </select>
-          </label>
-
-          <button class="action-btn" type="submit">Create Account</button>
-          <p class="message" id="registerMessage" aria-live="polite"></p>
-
-          <p class="switch-line">
-            Already have an account?
-            <button class="link-btn" data-target="loginPanel" type="button">Login</button>
-          </p>
-        </form>
-      </section>
-
-      <section class="panel active" id="loginPanel">
-        <form id="loginForm" class="form">
-          <label>
-            <span>Registration No</span>
-            <input type="text" id="loginRegNo" placeholder="Enter registration number" autocomplete="username" required>
-          </label>
-
-          <label>
-            <span>Password</span>
-            <input type="password" id="loginPassword" placeholder="Enter password" autocomplete="current-password" required>
-          </label>
-
-          <button class="action-btn" type="submit">Login</button>
-          <p class="message" id="loginMessage" aria-live="polite"></p>
-
-          <p class="switch-line">
-            Don't have an account?
-            <button class="link-btn" data-target="createPanel" type="button">Create account</button>
-          </p>
-        </form>
-      </section>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+  <p>Redirecting...</p>
+  <script>
+    window.location.replace("./loginPage/index.html");
+  </script>
 </body>
 </html>

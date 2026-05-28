@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Connect Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="shell">
+      <header class="topbar">
+        <div>
+          <p class="tag">Hostel Connect</p>
+          <h1>Home</h1>
+          <p class="subtext">Choose a section to continue.</p>
+        </div>
+        <button class="logout-btn" id="logoutBtn" type="button">Logout</button>
+      </header>
+
+      <section class="welcome-card">
+        <h2 id="welcomeName">Welcome</h2>
+        <p id="welcomeMeta">Loading your account...</p>
+      </section>
+
+      <section class="grid">
+        <article class="feature-card">
+          <p class="feature-tag">Section 1</p>
+          <h3>Laundry Submission</h3>
+          <p>Submit laundry requests and track your next handover later.</p>
+          <button class="open-btn" data-section="Laundry Submission" type="button">Open</button>
+        </article>
+
+        <article class="feature-card">
+          <p class="feature-tag">Section 2</p>
+          <h3>Lost and Found</h3>
+          <p>View missing items and report found belongings later.</p>
+          <button class="open-btn" data-section="Lost and Found" type="button">Open</button>
+        </article>
+      </section>
+
+      <p class="status-message" id="statusMessage"></p>
+    </section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
